@@ -1,6 +1,13 @@
-# HALF_SUBTRACTOR
-# Truth Table
-![image](https://github.com/RESMIRNAIR/HALF_SUBTRACTOR/assets/154305926/d0d5980a-6bcf-4ede-a54e-6aae3fb5f5f2)
-# Circuit Diagram
-![image](https://github.com/RESMIRNAIR/HALF_SUBTRACTOR/assets/154305926/df70da69-5a12-4a0d-ab84-a98dad3f7e70)
-![image](https://github.com/RESMIRNAIR/HALF_SUBTRACTOR/assets/154305926/2f2d6a4d-9eda-4165-8579-1d7490b5fe97)
+
+# HalfSubtractor
+# program
+~~~
+module HAS(output D, B, input X, Y);
+assign D = X ^ Y;
+assign B = ~X & Y;
+endmodule
+~~~
+# output
+![WhatsApp Image 2024-03-18 at 13 53 54_0eb3da18](https://github.com/Gopinathan6/HalfSubtractor/assets/163831807/39e83991-910b-4051-ba33-9715aa2fea51)
+# result
+hence verified sucessfully
